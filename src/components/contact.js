@@ -9,7 +9,7 @@ export default function Contact({}) {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = contact;
-    fetch("http://localhost:3009/contacts", {
+    fetch("https://property-reviewer.onrender.com/contacts", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
