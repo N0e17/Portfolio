@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=League+Spartan:wght@700&family=Lora&family=Montserrat:wght@100;400&family=Oswald&family=Raleway:wght@100&family=Rubik:wght@300;700&family=Rye&family=Smokum&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgba(210, 210, 210) 0%,
+    rgba(255, 248, 248, 1) 75%,
+    rgba(0, 255, 242) 100%
+  );
+}
+
+.mainHeader {
+  font-family: "League Spartan";
+}
+
+.introduction {
+  font-family: "Rubik";
+  font-weight: 520;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #0077e7, #01d8d1);
+  filter: hue-rotate(0deg);
+  animation: hueShift 6s infinite linear 1s;
+}
+
+@keyframes hueShift {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.mainDiv {
+  background-image: linear-gradient(
+    90deg,
+    rgb(210, 210, 210) 0%,
+    rgba(255, 248, 248, 1) 70%,
+    rgb(0, 255, 242) 100%
+  );
+}
+
+.secondHeader {
+  font-family: "Arvo";
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #0077e7, #01d8d1);
+  filter: hue-rotate(0deg);
+  animation: hueShift 6s infinite linear 1s;
+}
+
+.project {
+  font-family: "Oswald";
+}
+
+.desc {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+.bio {
+  text-align: left;
+}
+
+.btn {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+.home {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+.sidemenu {
+  position: sticky;
+  padding: 30px;
+  border: 30px;
+}
+
+.message {
+  width: 400px;
+  height: 200px;
+}
+
+.target {
+  position: relative;
+  font-size: 2em;
+  width: 28em;
+}
+
+.expanding {
+  margin: auto;
+  padding: auto;
+  border: 3px;
+  font-family: "League Spartan";
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 65px;
+  word-break: break-all;
+  animation-name: blink, expand-width;
+  animation-duration: 1s, 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-start;
+}
+
+@keyframes blink {
+  0% {
+    border-right: 1px solid transparent;
+  }
+  50% {
+    border-right: 1px solid black;
+  }
+  100% {
+    border-right: 1px solid transparent;
+  }
+}
+
+@keyframes expand-width {
+  0% {
+    width: 2.5ch;
+  }
+  0.975609756097561% {
+    width: 3ch;
+  }
+  1.951219512195122% {
+    width: 3.5ch;
+  }
+  2.926829268292683% {
+    width: 4ch;
+  }
+  3.902439024390244% {
+    width: 4.5ch;
+  }
+  4.878048780487805% {
+    width: 5ch;
+  }
+  5.853658536585366% {
+    width: 5.5ch;
+  }
+  6.829268292682927% {
+    width: 6ch;
+  }
+  7.804878048780488% {
+    width: 6.5ch;
+  }
+  8.78048780487805% {
+    width: 7ch;
+  }
+  9.75609756097561% {
+    width: 7.5ch;
+  }
+  10.73170731707317% {
+    width: 8ch;
+  }
+  11.707317073170731% {
+    width: 8.5ch;
+  }
+  12.682926829268293% {
+    width: 9ch;
+  }
+  13.658536585365853% {
+    width: 9.5ch;
+  }
+  14.634146341463413% {
+    width: 10ch;
+  }
+  15.609756097560975% {
+    width: 10.5ch;
+  }
+  16.585365853658537% {
+    width: 11ch;
+  }
+  17.5609756097561% {
+    width: 11.5ch;
+  }
+  18.53658536585366% {
+    width: 12ch;
+  }
+  19.512195121951223% {
+    width: 12.5ch;
+  }
+  20.487804878048784% {
+    width: 13ch;
+  }
+  21.463414634146346% {
+    width: 13.5ch;
+  }
+  22.439024390243908% {
+    width: 14ch;
+  }
+  23.41463414634147% {
+    width: 14.5ch;
+  }
+  24.390243902439032% {
+    width: 15ch;
+  }
+  25.365853658536594% {
+    width: 15.5ch;
+  }
+  26.341463414634156% {
+    width: 16ch;
+  }
+  27.317073170731717% {
+    width: 16.5ch;
+  }
+  28.29268292682928% {
+    width: 17ch;
+  }
+  29.26829268292684% {
+    width: 17.5ch;
+  }
+  30.243902439024403% {
+    width: 18ch;
+  }
+  31.219512195121965% {
+    width: 18.5ch;
+  }
+  32.19512195121953% {
+    width: 19ch;
+  }
+  33.17073170731709% {
+    width: 19.5ch;
+  }
+  34.14634146341465% {
+    width: 20ch;
+  }
+  35.12195121951221% {
+    width: 20.5ch;
+  }
+  36.097560975609774% {
+    width: 21ch;
+  }
+  37.073170731707336% {
+    width: 21.5ch;
+  }
+  38.0487804878049% {
+    width: 22ch;
+  }
+  39.02439024390246% {
+    width: 22.5ch;
+  }
+  40.00000000000002% {
+    width: 23ch;
+  }
+  40.97560975609758% {
+    width: 23.5ch;
+  }
+  41.951219512195145% {
+    width: 24ch;
+  }
+  42.92682926829271% {
+    width: 24.5ch;
+  }
+  43.90243902439027% {
+    width: 25ch;
+  }
+  44.87804878048783% {
+    width: 25.5ch;
+  }
+  45.85365853658539% {
+    width: 26ch;
+  }
+  46.829268292682954% {
+    width: 26.5ch;
+  }
+  47.804878048780516% {
+    width: 27ch;
+  }
+  48.78048780487808% {
+    width: 27.5ch;
+  }
+  49.75609756097564% {
+    width: 28ch;
+  }
+  50.7317073170732% {
+    width: 28.5ch;
+  }
+  51.70731707317076% {
+    width: 29ch;
+  }
+  52.682926829268325% {
+    width: 29.5ch;
+  }
+  53.65853658536589% {
+    width: 30ch;
+  }
+  54.63414634146345% {
+    width: 30.5ch;
+  }
+  55.60975609756101% {
+    width: 31ch;
+  }
+  56.58536585365857% {
+    width: 31.5ch;
+  }
+  57.560975609756134% {
+    width: 32ch;
+  }
+  58.536585365853696% {
+    width: 32.5ch;
+  }
+  59.51219512195126% {
+    width: 33ch;
+  }
+  60.48780487804882% {
+    width: 33.5ch;
+  }
+  61.46341463414638% {
+    width: 34ch;
+  }
+  62.439024390243944% {
+    width: 34.5ch;
+  }
+  63.414634146341506% {
+    width: 35ch;
+  }
+  64.39024390243907% {
+    width: 35.5ch;
+  }
+  65.36585365853662% {
+    width: 36ch;
+  }
+  66.34146341463419% {
+    width: 36.5ch;
+  }
+  67.31707317073175% {
+    width: 37ch;
+  }
+  68.29268292682931% {
+    width: 37.5ch;
+  }
+  69.26829268292687% {
+    width: 38ch;
+  }
+  70.24390243902444% {
+    width: 38.5ch;
+  }
+  71.219512195122% {
+    width: 39ch;
+  }
+  72.19512195121956% {
+    width: 39.5ch;
+  }
+  73.17073170731712% {
+    width: 40ch;
+  }
+  74.14634146341469% {
+    width: 40.5ch;
+  }
+  75.12195121951224% {
+    width: 41ch;
+  }
+  76.09756097560981% {
+    width: 41.5ch;
+  }
+  77.07317073170736% {
+    width: 42ch;
+  }
+  78.04878048780493% {
+    width: 42.5ch;
+  }
+  79.02439024390249% {
+    width: 43ch;
+  }
+  80.00000000000006% {
+    width: 43.5ch;
+  }
+  80.97560975609761% {
+    width: 44ch;
+  }
+  81.9512195122% {
+    width: 44.5ch;
+  }
+  100% {
+    width: 45ch;
+  }
+}
