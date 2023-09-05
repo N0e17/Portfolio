@@ -10,6 +10,7 @@ import Contact from "./components/contact";
 import ProjectOneDesc from "./components/projectOneDesc";
 import ProjectTwoDesc from "./components/projectTwoDesc";
 import ProjectThreeDesc from "./components/projectThreeDesc";
+import ProjectFourDesc from "./components/projectFourDesc";
 import { Layout, Menu, theme } from "antd";
 
 function getItem(label, key, icon) {
@@ -112,6 +113,10 @@ function App() {
                 <Route
                   path="/descriptionThree"
                   element={<ProjectThreeDesc />}
+                ></Route>
+                <Route
+                  path="/descriptionFour"
+                  element={<ProjectFourDesc />}
                 ></Route>
               </Routes>
             </div>

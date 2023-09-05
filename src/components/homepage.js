@@ -69,6 +69,23 @@ export default function Projects({}) {
             Check it Out!
           </button>
         </Link>
+        <br />
+        <br />
+        <br />
+        <h2 className="secondHeader">
+          Another website I made using HTML, CSS and Javascript
+        </h2>
+        <h2 className="project">Cat Adoption Website</h2>
+        <p className="desc font-weight-bold h5">
+          A simple cat adoption website I made with a web responsive design
+          <br />
+          <Link to="/descriptionFour">Read More</Link>
+        </p>
+        <Link to="https://cat-adoption-website.onrender.com">
+          <button type="button" class="btn btn-info">
+            Ta-da!
+          </button>
+        </Link>
       </div>
       <br />
       <br />
