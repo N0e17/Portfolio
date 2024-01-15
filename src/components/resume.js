@@ -22,7 +22,7 @@ export default function Resume({}) {
       </p>
       <ul class="desc font-weight-bold text-left h5">
         <li>
-          <Link to="https://drive.google.com/file/d/1kD2gbGUw9OZd-AdQo8_hUhyITkR6IBjK/view?usp=sharing">
+          <Link to="https://drive.google.com/file/d/1R12gUmoHDxS5GDE-abgVJGTWg58Xfmdk/view?usp=sharing">
             Resume
           </Link>
         </li>
